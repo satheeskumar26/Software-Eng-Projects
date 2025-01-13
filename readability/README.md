@@ -47,30 +47,6 @@ Grade 3
 - Texts with no sentences will result in `Before Grade 1`.
 - Extremely complex texts may result in `Grade 16+`.
 
-## How to Use
-
-1. Run the program and input a block of text when prompted.
-2. The program will output the grade level of the text.
-
-Example:
-
-```
-$ ./readability
-Text: This is CS50. It's a great course.
-Grade 5
-```
-
-## Skills Demonstrated
-
-- **Text Analysis**: Counting letters, words, and sentences.
-- **Mathematical Computations**: Applying the Coleman-Liau formula to calculate readability.
-- **User Interaction**: Taking user input and providing meaningful feedback.
-- **Error Handling**: Accounting for edge cases, such as empty input or unconventional text formatting.
-
-## Project Files
-
-- `readability.c`: The main program file containing the implementation of the Readability program.
-
 ## Usage
 
 This project was implemented as part of Harvard's CS50x course and demonstrates proficiency in C programming, text processing, and algorithm implementation.
