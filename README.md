@@ -1,8 +1,9 @@
 # Software-Eng-Projects
 Here are the collection of all my personal projects and projects from Harvard's CS50x course. This repository showcases my journey in computer science, including final projects and self improvments. Explore my work and the skills I’ve developed through this renowned curriculum.
 
-## Trivia-web-page: 
-A App for creating and taking interactive trivia quizzes. (Python, Java, CSS, HTML, and SQl)
+### Trivia-web-page:
+**Add Birthdays**:
+-A App for creating and taking interactive trivia quizzes. (Python, Java, CSS, HTML, and SQl)
 
 ### Birthdays: 
 A Python-based project that tracks and manages birthday records using a database.
