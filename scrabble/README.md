@@ -62,4 +62,6 @@ Explanation:
 
 The program correctly determines that Player 2 is the winner.
 
+## Usage
+
 This project demonstrates basic C programming skills and logical thinking, making it an excellent learning experience for aspiring software engineers.
