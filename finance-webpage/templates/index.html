@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <h2>Welcome, {{ user_name }}!</h2>
+    <h6>Your Cash and Holdings are: <strong>USD {{ cash }}</strong></h6>
+</div>
+
+<div class="section">
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%;">Symbol</th>
+                <th style="width: 25%;">Shares</th>
+                <th style="width: 25%;">Current Price</th>
+                <th style="width: 25%;">Total Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if table_list %}
+                {% for row in table_list %}
+                    <tr>
+                        <td>{{ row.symbol }}</td>
+                        <td>{{ row.shares }}</td>
+                        <td>{{ row.price }}</td>
+                        <td>{{ row.total }}</td>
+                    </tr>
+                {% endfor %}
+            {% else %}
+                <tr>
+                    <td>None</td>
+                    <td>None</td>
+                    <td>None</td>
+                    <td>None</td>
+                </tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+
+<div class="section">
+    <table>
+        <tr>
+            <th style="width: 75%; text-align: right;">Cash:</th>
+            <td style="width: 25%; text-align: right;">{{ cash }}</td>
+        </tr>
+        <tr>
+            <th style="width: 75%; text-align: right;">Grand Total:</th>
+            <td style="width: 25%; text-align: right;">{{ grand_total }}</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}

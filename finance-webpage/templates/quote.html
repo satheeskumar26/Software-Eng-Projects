@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+
+    <div class="section">
+
+        <h2> Stock Info </h2>
+
+    </div>
+
+    <div class="section">
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="text-align: center; width: 33%;">Symbol</th>
+                    <th style="text-align: center; width: 33%;">Shares</th>
+                    <th style="text-align: center; width: 33%;">Price</th>
+                </tr>
+            </thead>
+
+            {% if output is not none and output != "" %}
+                <tbody>
+                    <tr>
+                        <td>{{ symbol }}</td>
+                        <td>1</td>
+                        <td>{{ latest_price }}</td>
+                    </tr>
+                </tbody>
+            {% else %}
+                <tbody>
+                    <tr>
+                        <td>None</td>
+                        <td>None</td>
+                        <td>None</td>
+                    </tr>
+                </tbody>
+            {% endif %}
+
+        </table>
+    </div>
+
+    <div class="section">
+        <form action="/quote" method="post">
+            <input name="symbol" type="text" placeholder="Search For Stocks">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+{% endblock %}

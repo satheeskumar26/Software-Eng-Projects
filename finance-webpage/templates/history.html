@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+
+<div class="section">
+    <h2> History </h2>
+</div>
+
+<div class="section">
+    <table>
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th>Symbol</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            {% if history_data == 0 %}
+                <tr>
+                    <td>NONE</td>
+                    <td>NONE</td>
+                    <td>NONE</td>
+                    <td>NONE</td>
+                    <td>NONE</td>
+                </tr>
+            {% endif %}
+
+            {% if history_data == 1 %}
+                {% for row in rows %}
+                    <tr>
+                        <td>{{ row.action }} </td>
+                        <td>{{ row.symbol }} </td>
+                        <td>{{ row.shares }} </td>
+                        <td>{{ row.price }} </td>
+                        <td>{{ row.timestamp }} </td>
+                    </tr>
+                {% endfor %}
+            {% endif %}
+
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
