@@ -26,7 +26,7 @@ Managing stock portfolios manually can be error-prone and inefficient. This appl
 ## Why This Project?
 This project was part of my Harvard CS50x coursework, designed to deepen my understanding of web development, APIs, and database management while providing practical experience in building financial applications.
 
-## How it looks
+## How It Looks
 #### Register
 ![register](https://github.com/user-attachments/assets/40e16c3c-1984-4fee-ad96-00c7c3f5777c)
 #### Homepage
