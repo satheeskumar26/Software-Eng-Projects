@@ -29,7 +29,6 @@ A C program simulating a runoff election system to determine a winner. (C)
 
 **substitution** : A C program implementing a substitution cipher for text encryption. (C)
 
-#### dna-python:
 **dna-python** : A program for identifying DNA sequences by matching STR profiles in a database. (Python)
 
 ## Easiest Projects:
