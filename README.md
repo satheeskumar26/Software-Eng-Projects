@@ -1,55 +1,58 @@
 # Software-Eng-Projects
 Here are the collection of all my personal projects and projects from Harvard's CS50x course. This repository showcases my journey in computer science, including final projects and self improvments. Explore my work and the skills I’ve developed through this renowned curriculum.
 
-### Trivia-web-page:
-**Add Birthdays**:
--A App for creating and taking interactive trivia quizzes. (Python, Java, CSS, HTML, and SQl)
+### finance-webpage:
 
-### Birthdays: 
-A Python-based project that tracks and manages birthday records using a database.
+A web application for managing stock portfolios with real-time data. (Python, Flask, SQL, HTML, CSS)
+### project-app:
 
-### Credit-python: 
-Python implementation for validating credit card numbers using Luhn's Algorithm.
+A web application for creating and sharing interactive quizzes. (Python, Flask, HTML, CSS, SQL)
+### trivia-web-page:
 
-### Credit: 
-A C program to validate credit card numbers using Luhn's Algorithm.
+An app for creating and taking interactive trivia quizzes. (Python, Flask, HTML, CSS, SQL)
+### homepage-webpage:
 
-### Dna-python: 
-Python program for identifying DNA sequences by matching STR profiles in a database.
+A personal portfolio website showcasing projects and skills. (HTML, CSS, Flask)
+### fiftyville-sql:
 
-### Fiftyville-sql: 
-SQL-based project to solve a mystery using relational database queries.
+A SQL project to solve a mystery using relational database queries. (SQL)
+### songs-sql:
 
-### Finance-webpage: 
-A Flask-based Python project for a stock portfolio management web app.
+A SQL project to analyze and query song data in a database. (SQL)
 
-### Homepage-webpage: 
-A simple personal portfolio website using HTML, CSS, and Flask.
+### Intermediate Projects:
+### inheritance:
 
-### Inheritance: 
-A C program modeling family inheritance patterns using linked structures.
+A C program modeling family inheritance patterns using linked structures. (C)
+### runoff:
 
-### Plurality: 
-A C program simulating a plurality voting system to determine election results.
+A C program simulating a runoff election system to determine a winner. (C)
+### plurality:
 
-### Project-app: 
-Flask and Python-based web application for the CS50x final project, featuring quizzes.
+A C program simulating a plurality voting system to determine election results. (C)
+### readability:
 
-### Readability-python: 
-Python program to calculate the readability score of a text using Coleman-Liau index.
+A C program to analyze and score the readability of a given text. (C)
+### scrabble:
 
-### Readability: 
-C program to analyze and score the readability of a given text.
+A C program to calculate and compare scores for words in a Scrabble-like game. (C)
+### substitution:
 
-### Runoff: 
-A C program simulating a runoff election system to determine a winner.
+A C program implementing a substitution cipher for text encryption. (C)
+### dna-python:
 
-### Scrabble: 
-A C program to calculate and compare scores for words in a Scrabble-like game.
+A program for identifying DNA sequences by matching STR profiles in a database. (Python)
 
-### Songs-sql: 
-SQL-based project to analyze and query song data in a database.
+### Easiest Projects:
+### readability-python:
 
-### Substitution: 
-A C program implementing a substitution cipher for text encryption.
+A Python program to calculate the readability score of a text using the Coleman-Liau index. (Python)
+### credit-python:
 
+A Python program for validating credit card numbers using Luhn's Algorithm. (Python)
+### credit:
+
+A C program to validate credit card numbers using Luhn's Algorithm. (C)
+### birthdays:
+
+An app for tracking and managing birthday records. (Python, SQL)
