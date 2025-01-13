@@ -25,13 +25,9 @@ Having an online presence is essential for showcasing skills and projects. This 
 This project was part of my Harvard CS50x coursework, designed to enhance web development skills and provide a practical understanding of HTML, CSS, and JavaScript.
 
 ## How It Looks
-#### Home
 ![image](https://github.com/user-attachments/assets/48eb58e3-8bba-467d-aa3c-72ba9b74ff94)
-#### About Me
 ![image](https://github.com/user-attachments/assets/e290430d-914a-45bc-807b-856880d1c09d)
-#### Resume
 ![image](https://github.com/user-attachments/assets/f4c1692d-2f7c-46a2-9cd3-569562209ca7)
-#### Contect
 ![image](https://github.com/user-attachments/assets/6ef97048-5461-4eb9-85c3-6717a0746a0f)
 
 
