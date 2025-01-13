@@ -18,13 +18,6 @@ This project implements a credit card validation program in C using **Luhn's Alg
   - `VISA\n`
   - `INVALID\n`
 
-## Example Use Case
-When executed, the program interacts with the user as follows:
-```bash
-$ ./credit
-Number: 4003600000000014
-VISA
-```
 
 ## Problem Addressed
 Validating credit card numbers manually can be tedious and error-prone. This program automates the process, ensuring the correctness of the input while checking its compliance with specific industry standards. It provides immediate feedback on whether the card is valid and identifies the provider.
@@ -32,8 +25,3 @@ Validating credit card numbers manually can be tedious and error-prone. This pro
 ## Why This Project?
 This project was part of my Harvard CS50x coursework, designed to strengthen my problem-solving skills, deepen my understanding of algorithms, and enhance my proficiency in C programming.
 
-This repository includes:
-- `credit.c`: The main program file containing the implementation of the credit card validation logic.
-- Sample input/output examples for testing.
-
-Feel free to explore the code and reach out with any suggestions or feedback!
