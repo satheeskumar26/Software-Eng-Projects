@@ -23,6 +23,6 @@ Manually managing and organizing birthday information can be tedious and error-p
 ## Why This Project?
 This project was part of my Harvard CS50x coursework, designed to strengthen my understanding of database management, SQL integration with Python, and building interactive applications.
 
-## How it looks
+## How It Looks
 ![image](https://github.com/user-attachments/assets/baea96e6-0b88-49d5-82bd-5ee04ec57d0e)
 
