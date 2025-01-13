@@ -3,11 +3,11 @@ Here are the collection of all my personal projects and projects from Harvard's 
 
 ## Toughest Projects:
 
-**trivia-web-page** : An app for creating and taking interactive trivia quizzes. (Python, Flask, HTML, CSS, SQL)
+**project-app** : A web application for creating and sharing interactive quizzes. (Python, Flask, HTML, CSS, SQL)
 
 **finance-webpage** : A web application for managing stock portfolios with real-time data. (Python, Flask, SQL, HTML, CSS)
 
-**project-app** : A web application for creating and sharing interactive quizzes. (Python, Flask, HTML, CSS, SQL)
+**trivia-web-page** : An app for creating and taking interactive trivia quizzes. (Python, Flask, HTML, CSS, SQL)
 
 **homepage-webpage** : A personal portfolio website showcasing projects and skills. (HTML, CSS, Flask)
 
