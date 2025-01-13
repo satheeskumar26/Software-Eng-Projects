@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8c4f1d2a-994c-4c39-9f61-6b228d31c311)# Birthdays Database Management
+# Birthdays Database Management
 This project implements a simple Python application to manage a birthdays database using SQLite. The program allows users to add, query, and delete birthday entries efficiently.
 
 ## Features
