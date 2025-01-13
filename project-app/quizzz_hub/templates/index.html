@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+
+<div class="mb-3">
+    <h1>Welcome {{ username }}!</h1>
+    <h6>You can find your quizzes in the table below.</h6>
+</div>
+
+<table class="table table-primary table-striped">
+    <thead>
+        <tr>
+            <th style="width: 50%;">Your Quiz:</th>
+            <th style="width: 50%;">Action:</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if quiz_list > 0 %}
+            {% for table in tables %}
+            <tr>
+                <td>{{ table["name"] }}</td>
+                <td>
+                    <form method="POST" action="/">
+                        <button type="submit" name="copy_link{{ table['id'] }}" class="btn btn-primary" value="clicked">Copy Link</button>
+                        <button type="submit" name="delete{{ table['id'] }}" class="btn btn-danger" value="clicked">Delete</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        {% else %}
+            <tr>
+                <td colspan="2">No Quiz created</td>
+            </tr>
+        {% endif %}
+    </tbody>
+</table>
+
+{% endblock %}

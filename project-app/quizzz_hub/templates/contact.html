@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Contact Me
+{% endblock %}
+
+{% block main %}
+
+<div class="container mt-5 p-4" style="background-color: #bceafb; border-radius: 10px;">
+    <div class="row">
+        <!-- Contact Form Section -->
+        <div class="col-md-7">
+            <form method="POST" action="/contact">
+
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name :</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email :</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone Number :</label>
+                        <input type="text" class="form-control" id="phone" name="phone">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message :</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <!-- Contact Information Section -->
+        <div class="col-md-5 d-flex flex-column justify-content-center">
+            <h2 class="fw-bold mb-4">Contact Us</span></h2>
+            <p class="mb-4">
+                For questions, technical assistance, or collaboration opportunities, please reach out using the contact details below.
+            </p>
+
+            <p class="d-flex align-items-center">Number : +123-456-7890 </p>
+            <p class="d-flex align-items-center">Mail : hello@reallygreatsite.com</p>
+            <p class="d-flex align-items-center">Address : 123 Anywhere St., Any City, ST 12345</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

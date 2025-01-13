@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quiz
+{% endblock %}
+
+{% block main %}
+<div class="container mt-5">
+    <form action="/quiz" method="post">
+        <h1 class="text-primary fw-bold mb-1">{{ quizzes_id_info[0]["name"] }}</h1>
+        <p>{{ quizzes_id_info[0]["description"] }}</p>
+        <input type="hidden" name="quizzes_id" value="{{ quizzes_id_info[0]['id'] }}">
+
+
+        <!-- Quiz Taker Name -->
+        <div class="fw-semibold mb-3">
+            <label for="quizTakeName" class="form-label" style="text-align: left; display: block;"> Name :</label>
+            <input type="text" class="form-control" id="quizTakeName" name="quizTakeName" placeholder="Enter quiz name" value="{{ quizTakeName }}" required>
+        </div>
+
+
+        <!-- Questions Section -->
+        <div class="fw-semibold mt-4">
+            <h5>-- Questions --</h5>
+        </div>
+
+        <div class="fw-semibold mb-3">
+            {% for question in question_info %}
+                <h6 class="text-start">Question ({{ loop.index }}) :</h6>
+                <h2 class="text-start">{{ question.question_text }}</h2>
+
+                <!-- Display Choices for Each Question -->
+                <ul class="list-group">
+                    {% for choice in choices_info %}
+                        {% if choice.question_id == question.id %}
+                        <div class="list-group-item d-flex align-items-center">
+                            <div class="text-start" style="width: 50%;"> <h6>{{ choice.choice_text }}</h6> </div>
+                            <div class="fw-semibold mb-3" style="width: 50%;"> <input type="radio" name="question_{{ question.id }}" value="{{ choice.id }}" required>  </div>
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+        </div>
+
+        <div>
+            <button type="submit" name="action" value="submit" class="btn btn-success w-25 mb-4">submit</button>
+        </div>
+    </form>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block main %}
+<div class="container mt-5 p-4" style="background-color: #bceafb; border-radius: 10px;">
+    <h1 class="text-primary fw-bold mb-4 text-center">Your Quiz Results</h1>
+
+    <div class="text-center mb-3">
+        <h3 class="fw-semibold">{{ quiz_take_name }}, here is your result:</h3>
+        <h1 class="display-2 fw-bold text-success my-4">{{ result }}</h1>
+        <h4 class="text-muted">Thank you for playing the quiz!</h4>
+    </div>
+
+</div>
+{% endblock %}
