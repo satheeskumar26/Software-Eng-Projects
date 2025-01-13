@@ -22,6 +22,6 @@ Creating and managing trivia quizzes manually can be inefficient and repetitive.
 ## Why This Project?
 This project was part of my Harvard CS50x coursework, designed to reinforce Python programming skills, SQL database integration, and interactive application development.
 
-
+## How it looks
 ![image](https://github.com/user-attachments/assets/442bd09e-0cf6-4fd8-a42c-b92dad291a5b)
 
