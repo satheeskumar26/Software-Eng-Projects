@@ -1,2 +1,2 @@
 # Software-Eng-Projects
-Explore my Harvard CS50x projects along with other software engineering related projects I've worked on.
+Here are collection of all my personal projects and projects from Harvard's CS50x course. This repository showcases my journey in computer science, including final projects and self imprvements. Explore my work and the skills I’ve developed through this renowned curriculum.
