@@ -39,3 +39,8 @@ A C program simulating a runoff election system to determine a winner. (C)
 **credit** : A C program to validate credit card numbers using Luhn's Algorithm. (C)
 
 **birthdays** : An app for tracking and managing birthday records. (Python, SQL)
+
+# Overview
+
+![cs potfilio](https://github.com/user-attachments/assets/c1070ff6-d3b5-409a-9d37-32266d9fbc11)
+
