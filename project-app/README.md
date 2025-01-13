@@ -56,9 +56,9 @@ QUIZZZ HUB is a web application that allows users to create and share interactiv
 5. **Quiz Taker Data**: Save quiz taker responses in a database for creators to review results.
 
 ## How it looks 
-#### register
+#### Register
 ![register2](https://github.com/user-attachments/assets/20fe7e13-eff1-4974-8fd4-36461312354b)
-#### login
+#### Login
 ![login2](https://github.com/user-attachments/assets/c3195a4b-896d-41de-95e7-f289b89bfe3f)
 #### Homepage
 ![home page 2](https://github.com/user-attachments/assets/de0eb539-0f5f-4abe-912d-631a7d35bcb9)
