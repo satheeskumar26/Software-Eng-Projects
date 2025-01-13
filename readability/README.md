@@ -1,52 +1,39 @@
 # Readability
+This project implements a program in C that calculates the readability grade level of a given text using the Coleman-Liau index. By analyzing the number of letters, words, and sentences in the text, the program determines the U.S. grade level required to comprehend the text.
 
-## Overview
+## Features
+- Analyzes user-inputted text for:
+  - **Letters**: Counts alphabetic characters.
+  - **Words**: Counts sequences of characters separated by spaces.
+  - **Sentences**: Counts text ending with `.`, `!`, or `?`.
+- Calculates the readability grade level using the Coleman-Liau index formula:
+  ```
+  index = 0.0588 * L - 0.296 * S - 15.8
+  ```
+  - `L`: Average number of letters per 100 words.
+  - `S`: Average number of sentences per 100 words.
+- Outputs the grade level or special cases:
+  - `Before Grade 1` for very simple texts.
+  - `Grade 16+` for very complex texts.
 
-This program calculates the reading level of a given text using the Coleman-Liau index. By analyzing the number of letters, words, and sentences in the text, the program determines the U.S. grade level required to comprehend the text.
+## Problem Addressed
+Determining the readability of text manually can be challenging and subjective. This program automates the process using a mathematical formula, providing quick and accurate results for assessing text complexity.
 
-## Problem to Solve
+## How to Use
+1. **Compile the Program**: Use a C compiler to compile the source code, e.g., `clang readability.c -o readability`.
+2. **Run the Program**: Execute the compiled program:
+   ```bash
+   ./readability
+   ```
+3. **Input Text**: When prompted, enter the text you want to analyze.
+4. **View Grade Level**: The program will output the readability grade level.
 
-In academia, publishing, and education, it’s essential to evaluate how challenging a piece of text might be for readers. The Coleman-Liau index provides a quantitative method to achieve this by assigning a grade level to the text. For example:
-
-- A score of `3` implies the text is understandable by a third-grader.
-- A score of `12` suggests the text is suitable for a twelfth-grader.
-
-The program calculates this score to help users identify the readability level of their content.
-
-## Implementation Details
-
-The program reads a block of text from the user and evaluates it based on:
-
-1. **Letters**: Any alphabetical character.
-2. **Words**: A sequence of characters separated by spaces.
-3. **Sentences**: Any sequence of text ending with `.`, `!`, or `?`.
-
-The program uses the Coleman-Liau formula:
-
-\[
-\text{Index} = 0.0588 \times L - 0.296 \times S - 15.8
-\]
-
-Where:
-- \( L \): Average number of letters per 100 words.
-- \( S \): Average number of sentences per 100 words.
-
-### Example
-
-Input:
+Example:
 ```
-Congratulations! Today is your day. You're off to Great Places! You're off and away!
+$ ./readability
+Text: This is CS50. It's a great course.
+Grade 5
 ```
 
-Output:
-```
-Grade 3
-```
-
-### Special Cases
-- Texts with no sentences will result in `Before Grade 1`.
-- Extremely complex texts may result in `Grade 16+`.
-
-## Usage
-
-This project was implemented as part of Harvard's CS50x course and demonstrates proficiency in C programming, text processing, and algorithm implementation.
+## Why This Project?
+This project was part of my Harvard CS50x coursework, designed to strengthen my skills in text processing, mathematical computations, and logical problem-solving using C programming.
