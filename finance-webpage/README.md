@@ -27,11 +27,17 @@ Managing stock portfolios manually can be error-prone and inefficient. This appl
 This project was part of my Harvard CS50x coursework, designed to deepen my understanding of web development, APIs, and database management while providing practical experience in building financial applications.
 
 ## How it looks
+Register
 ![register](https://github.com/user-attachments/assets/40e16c3c-1984-4fee-ad96-00c7c3f5777c)
+Homepage
 ![home page](https://github.com/user-attachments/assets/4c797a11-75bd-40c8-8fcc-0c990d799ce1)
+Quote page
 ![quote](https://github.com/user-attachments/assets/3707b38d-13ee-4dda-b780-15347a2c8f2e)
+Buy page
 ![buy](https://github.com/user-attachments/assets/9a742081-c65a-41ee-ba3f-280b45df912d)
+Sell page
 ![sell](https://github.com/user-attachments/assets/d168569b-0922-4237-b124-b040e94c8a8b)
+Hisyory page
 ![his](https://github.com/user-attachments/assets/8a831ba0-98ca-44af-82c9-b109802e457d)
 
 
