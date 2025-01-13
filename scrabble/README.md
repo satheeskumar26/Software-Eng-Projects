@@ -62,26 +62,4 @@ Explanation:
 
 The program correctly determines that Player 2 is the winner.
 
-## File Structure
-- `scrabble/`
-  - `scrabble.c`: The main program file that implements the scoring logic and user interaction.
-
-## Key Features
-- Implements Scrabble scoring logic using a pre-defined point table.
-- Handles case-insensitive input.
-- Compares scores and announces the winner.
-- Provides meaningful output for ties.
-
-## How to Use
-1. Clone the repository.
-2. Navigate to the `scrabble` directory.
-3. Compile the code using a C compiler, e.g., `clang scrabble.c -o scrabble`.
-4. Run the program using `./scrabble` and follow the prompts to input words.
-
-## Future Enhancements
-- Add support for validating words against a dictionary.
-- Implement a graphical interface for a more interactive experience.
-- Extend functionality to allow for multiple rounds of play.
-
----
 This project demonstrates basic C programming skills and logical thinking, making it an excellent learning experience for aspiring software engineers.
